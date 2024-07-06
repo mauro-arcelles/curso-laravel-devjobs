@@ -902,8 +902,8 @@
     </style>
 </head>
 
-<body class="font-sans antialiased dark:bg-black dark:text-white/50">
-
+<body class="">
+    <h1>DevJobs</h1>
 </body>
 
 </html>
