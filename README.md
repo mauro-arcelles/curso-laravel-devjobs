@@ -22,4 +22,13 @@ Thanks to Laravel we can store the image in the storage folder, in this case in 
 
 `sail artisan make:policy VacantePolicy --model=Vacante`
 
-Create a policy for the Vacante model. It was useful for restrict the access to the edit methods
+Create a policy for the Vacante model. It was useful for restrict the access to the edit methods`
+
+`sail artisan notifications:table`
+
+Create the notifications table migration then we need to run the migration
+
+`sail artisan make:notification NewNotification`
+
+Create a new notification class
+
