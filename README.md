@@ -36,3 +36,7 @@ Create a new notification class
 
 Create a new middleware class. To register the middleware in Laravel 11 we need to add an alias in app.php file within bootstrap folder
 
+`sail artisan make:seeder CategoriasSeeder`
+
+Create a seeder to prepopulate almost static content in database (in this case Categorias that wont change so much). Seeder need to be called in DatabaseSeeder.php file
+
