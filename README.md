@@ -38,5 +38,5 @@ Create a new middleware class. To register the middleware in Laravel 11 we need 
 
 `sail artisan make:seeder CategoriasSeeder`
 
-Create a seeder to prepopulate almost static content in database (in this case Categorias that wont change so much). Seeder need to be called in DatabaseSeeder.php file
+Create a seeder to prepopulate almost static content in database (in this case Categorias that wont change so much). Seeder need to be called in DatabaseSeeder.php file then we need to run sail artisan db:seed
 
